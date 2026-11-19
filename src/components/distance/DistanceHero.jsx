@@ -80,7 +80,7 @@ const DistanceHero = () => {
 
               <div className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-full p-2 border border-pink-400/40 bg-pink-400/10 shadow-[0_0_35px_rgba(236,72,153,0.25)]">
                 <Image
-                  src="/"
+                  src="/images/distance/jerin.jpg"
                   alt={names.firstName}
                   fill
                   sizes="(max-width: 768px) 96px, 128px"
@@ -105,7 +105,7 @@ const DistanceHero = () => {
 
               <div className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-full p-2 border border-pink-400/40 bg-pink-400/10 shadow-[0_0_35px_rgba(236,72,153,0.25)]">
                 <Image
-                  src="/images/distance/nibir.png"
+                  src="/images/distance/Nibir.png"
                   alt={names.secondName}
                   fill
                   sizes="(max-width: 768px) 96px, 128px"

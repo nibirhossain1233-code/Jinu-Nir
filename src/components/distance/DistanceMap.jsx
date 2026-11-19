@@ -43,14 +43,14 @@ const DistanceMap = () => {
 
             <div className="absolute inset-0 bg-black/20" />
 
-            {/* Nibir Card */}
+
             <div className="absolute top-58 left-1 sm:bottom-7 sm:left-7 w-52 sm:w-60 rounded-2xl border border-pink-400/30 bg-[#160d18]/85 backdrop-blur-xl p-4">
 
               <div className="flex items-center gap-3">
 
                 <div className="relative w-12 h-12 rounded-full overflow-hidden border border-pink-400/30">
                   <Image
-                    src="/"
+                    src="/images/distance/jerin.jpg"
                     alt={names.firstLogo}
                     fill
                     sizes="(max-width: 768px) 96px, 128px"
