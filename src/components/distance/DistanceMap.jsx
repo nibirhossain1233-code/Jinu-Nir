@@ -7,6 +7,7 @@ import {
   FaPlane,
 } from "react-icons/fa";
 import { names } from "@/api/names";
+import { info } from "@/api/info";
 
 const DistanceMap = () => {
   return (
@@ -34,7 +35,7 @@ const DistanceMap = () => {
           <div className="relative overflow-hidden rounded-3xl border border-pink-400/20 min-h-107.5 sm:min-h-125">
 
             <Image
-              src="/images/distance/map.png"
+              src="/map.png"
               alt="Distance map"
               fill
               className=""
@@ -49,7 +50,7 @@ const DistanceMap = () => {
 
                 <div className="relative w-12 h-12 rounded-full overflow-hidden border border-pink-400/30">
                   <Image
-                    src="/images/distance/nibir.png"
+                    src="/"
                     alt={names.firstLogo}
                     fill
                     sizes="(max-width: 768px) 96px, 128px"
@@ -63,7 +64,7 @@ const DistanceMap = () => {
                   </h3>
 
                   <p className="text-xs text-white/60">
-                    Dhaka, Bangladesh
+                    {info.firstPlace}
                   </p>
                 </div>
 
@@ -77,7 +78,7 @@ const DistanceMap = () => {
 
                 <div className="relative w-12 h-12 rounded-full overflow-hidden border border-pink-400/30">
                   <Image
-                    src="/images/distance/aru.jpg"
+                    src="/images/distance/nibir.png"
                     alt={names.secondLogo}
                     fill
                     sizes="(max-width: 768px) 96px, 128px"
@@ -91,7 +92,7 @@ const DistanceMap = () => {
                   </h3>
 
                   <p className="text-xs text-white/60">
-                    Comilla, Bangladesh
+                    {info.secondPlace}
                   </p>
                 </div>
 
@@ -111,7 +112,7 @@ const DistanceMap = () => {
               </p>
 
               <h3 className="mt-1 text-2xl sm:text-3xl font-bold text-white">
-                135 km
+                {info.distance} km
               </h3>
 
               <p className="mt-1 text-xs text-white/50">

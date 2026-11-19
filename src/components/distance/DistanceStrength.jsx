@@ -8,12 +8,13 @@ import {
   FaClock,
   FaHeart,
 } from "react-icons/fa";
+import { info } from "@/api/info";
 
 const strengthData = [
   {
     id: 1,
     icon: <FaMapMarkerAlt />,
-    number: "135",
+    number: info.distance,
     title: "Kilometers Apart",
   },
   {

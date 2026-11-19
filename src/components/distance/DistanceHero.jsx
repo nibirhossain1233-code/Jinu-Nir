@@ -7,6 +7,7 @@ import {
   FaRoute,
 } from "react-icons/fa";
 import { names } from "@/api/names";
+import { info } from "@/api/info";
 
 const DistanceHero = () => {
   return (
@@ -79,8 +80,8 @@ const DistanceHero = () => {
 
               <div className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-full p-2 border border-pink-400/40 bg-pink-400/10 shadow-[0_0_35px_rgba(236,72,153,0.25)]">
                 <Image
-                  src="/images/distance/nibir.png"
-                  alt="Nibir"
+                  src="/"
+                  alt={names.firstName}
                   fill
                   sizes="(max-width: 768px) 96px, 128px"
                   className="rounded-full object-cover p-2"
@@ -94,7 +95,7 @@ const DistanceHero = () => {
               </h3>
 
               <p className="text-sm text-pink-300">
-                Shariatpur,Dhaka
+                {info.firstPlace}
               </p>
 
             </div>
@@ -104,7 +105,7 @@ const DistanceHero = () => {
 
               <div className="relative w-28 h-28 sm:w-32 sm:h-32 rounded-full p-2 border border-pink-400/40 bg-pink-400/10 shadow-[0_0_35px_rgba(236,72,153,0.25)]">
                 <Image
-                  src="/images/distance/aru.jpg"
+                  src="/images/distance/nibir.png"
                   alt={names.secondName}
                   fill
                   sizes="(max-width: 768px) 96px, 128px"
@@ -119,7 +120,7 @@ const DistanceHero = () => {
               </h3>
 
               <p className="text-sm text-pink-300">
-                Homna,Comilla
+                {info.secondPlace}
               </p>
 
             </div>
@@ -130,7 +131,7 @@ const DistanceHero = () => {
               <div className="flex items-center justify-center gap-2 text-pink-400">
                 <FaRoute />
                 <span className="text-2xl sm:text-3xl font-bold text-white">
-                  135 km
+                  {info.distance} km
                 </span>
               </div>
 

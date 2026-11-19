@@ -2,6 +2,7 @@ import React from "react";
 import Container from "../ui/Container";
 import Image from "next/image";
 import { FaHeart } from "react-icons/fa";
+import { names } from "@/api/names";
 
 const StoryInWords = () => {
   return (
@@ -48,7 +49,7 @@ const StoryInWords = () => {
               </div>
 
               <button className="mt-8 px-6 py-3 rounded-full bg-pink-400 text-white font-medium hover:bg-pink-300 hover:text-primary transition-all duration-300">
-                💖 You & Me, Always
+                💖 {names.secondName} & {names.firstName}, Always
               </button>
 
             </div>
