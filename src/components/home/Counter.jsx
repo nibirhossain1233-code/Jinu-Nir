@@ -4,7 +4,7 @@ import React, { useEffect, useState } from "react";
 import Container from "../ui/Container";
 
 const Counter = () => {
-  const relationshipDate = new Date("2026-05-25T01:15:00");
+  const relationshipDate = new Date("2026-11-18T19:36:00");
 
   const [time, setTime] = useState({
     years: 0,
