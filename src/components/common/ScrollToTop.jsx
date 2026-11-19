@@ -27,7 +27,7 @@ const ScrollToTop = () => {
         })
       }
       aria-label="Scroll to top"
-      className={`fixed bottom-10 right-6 z-50 size-12 rounded-full border border-white/20 bg-white/10 flex items-center justify-center text-white hover:bg-pink-400 hover:border-pink-400 transition-all duration-500 ease-in-out cursor-pointer ${
+      className={`fixed bottom-15 md:bottom-6 right-6 z-50 size-12 rounded-full border border-white/20 bg-white/10 flex items-center justify-center text-white hover:bg-pink-400 hover:border-pink-400 transition-all duration-500 ease-in-out cursor-pointer ${
         isVisible
           ? "opacity-100 translate-y-0 scale-100 pointer-events-auto"
           : "opacity-0 translate-y-5 scale-75 pointer-events-none"
